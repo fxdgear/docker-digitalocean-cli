@@ -10,7 +10,7 @@ First login to Digital Ocean and create an API token.
 Second create the alias:
 
 ```bash
-alias do='docker run -it --rm -v /home/nick/Documents/docker-fundamentals/do_utilities:/app/ -e "ACCESS_TOKEN=<your DO access token>" fxdgear/docker-digital-ocean-cli'
+alias do='docker run -it --rm -v /home/nick/Documents/docker-fundamentals/do_utilities:/app/ -e "ACCESS_TOKEN=<your DO access token>" fxdgear/docker-digitalocean-cli'
 ```
 
 Once this is complete you can run `do` to see a list of arguments. 
